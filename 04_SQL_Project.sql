@@ -8,8 +8,8 @@ select * from Customers
 where customernumber between 103 and 121;
 
 #2. Write a SQL query to retrieve the unique city names from "customers" table sorted in descending order.
-select distinct city
-from customers;
+select distinct city from customers
+order by city desc;
 
 #3.Write a SQL query to get the number of unique city names "offices" table.
 SELECT COUNT(DISTINCT city) FROM offices;
